@@ -1,0 +1,12 @@
+// Your Major Variables lie here
+
+credentials = {
+  access_key = "aaa"
+  secret_key = "aaa"
+}
+
+
+rds_credentials = {
+  username = "user"
+  password = "password"
+}
