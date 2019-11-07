@@ -22,7 +22,7 @@ terraform plan -destroy -var-file=terraform.tfvars
 
 # To destroy your infrastucture
 terraform destroy -var-file=terraform.tfvars
-
+```
 #### Project Structure
 ```bash
 ├── backend.tf
