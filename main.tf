@@ -1,7 +1,7 @@
 module "global" {
-  source = "modules/global"
+  source = "./modules/global"
 }
 
-module "stages" {
-  source = "modules/stages"
-}
+# module "stages" {
+#  source = "./modules/stages"
+#}

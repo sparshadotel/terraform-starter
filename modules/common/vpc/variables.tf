@@ -6,9 +6,17 @@ variable "az_count" {
 variable "tags" {
   type = "map"
   default = {
-    Name = "Default"
-    Project = "Default"
+    Name = "TF-Starter"
+    Project = "TF-Starter"
   }
+}
+
+variable "project_name" {
+  default = "tfstarter"
+}
+
+variable "stage" {
+  default = "sandbox"
 }
 
 variable "cidr_block" {
